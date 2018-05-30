@@ -119,7 +119,7 @@ def play
   until over?(board)
     turn(board)
   end
-  if draw?
+  if draw?(board)
     puts "Draw! Bette luck next time"
   else
     puts "Good job #{winner(board)}"
