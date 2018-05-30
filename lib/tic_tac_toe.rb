@@ -119,8 +119,8 @@ def play (board)
     turn(board)
   end
   if draw?(board)
-    puts "Draw! Bette luck next time"
+    puts "Cat's Game!"
   else
-    puts "Good job #{winner(board)}"
+    puts "Congratulations #{winner(board)}!"
   end
 end
