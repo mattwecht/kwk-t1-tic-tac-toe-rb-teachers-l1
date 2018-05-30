@@ -122,5 +122,5 @@ def play
     puts "Draw! Bette luck next time"
   else
     puts "Good job #{winner(board)}"
-
+  end
 end
