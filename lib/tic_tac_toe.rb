@@ -101,8 +101,9 @@ def winner (board)
 end
 
 def turn_count (board)
-  test = board.select do |spot|
+  board.count do |spot|
     spot == "X" || spot == "O"
   end
-  return test.length
 end
+
+def
