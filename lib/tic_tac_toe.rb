@@ -111,3 +111,16 @@ def current_player(board)
     return "X"
   return "O"
 def
+
+
+def play
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  until over?(board)
+    turn(board)
+  end
+  if draw?
+    puts "Draw! Bette luck next time"
+  else
+    puts "Good job #{winner(board)}"
+
+end
